@@ -151,7 +151,7 @@ class GalleryViewController: UIViewController {
     
     func checkArray() {
         
-        if photoInfo.count > 1 {
+        if photoInfo.count > 0 {
             self.galleryImageView.image = self.previousImage()
         } else {
             self.galleryImageView.image = UIImage(named: "Empty")
